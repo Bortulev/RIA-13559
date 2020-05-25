@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="ae708b95-47cd-4f1e-849c-66b0f4c03fd1" discardOkResults="false" failOnError="false" failTestCaseOnErrors="true" keepSession="false" name="TestCase 1" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="ae708b95-47cd-4f1e-849c-66b0f4c03fd1fileName">TestCase-1</con:setting>
+  </con:settings>
+  <con:testStep type="httprequest" name="HTTP Request" id="0b86b463-1a2c-42fd-9e69-de8bee6659bd">
+    <con:settings/>
+    <con:config method="GET" xsi:type="con:HttpRequest" id="c8ac989e-ea76-49b2-8b02-fd342562acad" name="HTTP Request" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:settings/>
+      <con:endpoint>http://localhost</con:endpoint>
+      <con:request/>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:parameters/>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="delay" name="Delay" id="acc39eec-fd03-48f8-b85d-095a917bdc5b">
+    <con:settings/>
+    <con:config>
+      <delay>1000</delay>
+    </con:config>
+  </con:testStep>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testCase>
